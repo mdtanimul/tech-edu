@@ -10,12 +10,16 @@
     <style>
         .carousel-img-styles img {
             width: 1300px;
-            height: 600px;
+            height: 650px;
             object-fit: cover;
         }
 
         .slider-content {
             margin-bottom: 12%;
+        }
+
+        .single-course {
+            cursor: pointer;
         }
     </style>
 </head>
@@ -108,15 +112,15 @@
         <!-- carousel end -->
     </header>
     <!-- course start -->
-    <main class="container text-center my-5" id="our-courses">
+    <main class="container text-center my-5">
         <div>
             <h2 class="pt-5 fw-bold">Discover Our Popular Courses</h2>
             <p class="pb-5">It is a long established fact that a reader will be distracted by the readable
                 content of a page when looking at its layout.</p>
         </div>
         <section class="row gx-lg-4 gy-4">
-            <div class="tedu-single-courses col-lg-6 col-12">
-                <div class="d-flex flex-column flex-lg-row flex-md-row border rounded">
+            <div class="single-course col-lg-6 col-12">
+                <div class="d-flex flex-column flex-lg-row flex-md-row shadow bg-body border rounded">
                     <div><img class="img-fluid w-100" src="images/course/course-1.png" alt=""></div>
                     <div class="ps-2 text-start">
                         <h5>Fundamental of UI/UX Design</h5>
@@ -127,10 +131,9 @@
                         </strong>
                     </div>
                 </div>
-
             </div>
-            <div class="tedu-single-courses col-lg-6 col-12">
-                <div class="d-flex flex-column flex-lg-row flex-md-row border rounded">
+            <div class="single-course col-lg-6 col-12">
+                <div class="d-flex flex-column flex-lg-row flex-md-row shadow bg-body border rounded">
                     <div><img class="img-fluid w-100" src="images/course/course-2.png" alt=""></div>
                     <div class="ps-2 text-start">
                         <h5>Javascript Basic to advanced</h5>
@@ -142,8 +145,8 @@
                     </div>
                 </div>
             </div>
-            <div class="tedu-single-courses col-lg-6 col-12">
-                <div class="d-flex flex-column flex-lg-row flex-md-row border rounded">
+            <div class="single-course col-lg-6 col-12">
+                <div class="d-flex flex-column flex-lg-row flex-md-row shadow bg-body border rounded">
                     <div><img class="img-fluid w-100" src="images/course/course-3.png" alt=""></div>
                     <div class="ps-2 text-start">
                         <h5>Fullstack Web Development</h5>
@@ -155,8 +158,8 @@
                     </div>
                 </div>
             </div>
-            <div class="tedu-single-courses col-lg-6 col-12">
-                <div class="d-flex flex-column flex-lg-row flex-md-row border rounded">
+            <div class="single-course col-lg-6 col-12">
+                <div class="d-flex flex-column flex-lg-row flex-md-row shadow bg-body border rounded">
                     <div><img class="img-fluid w-100" src="images/course/course-4.png" alt=""></div>
                     <div class="ps-2 text-start">
                         <h5>Digital Marketing</h5>
@@ -168,8 +171,8 @@
                     </div>
                 </div>
             </div>
-            <div class="tedu-single-courses col-lg-6 col-12">
-                <div class="d-flex flex-column flex-lg-row flex-md-row border rounded">
+            <div class="single-course col-lg-6 col-12">
+                <div class="d-flex flex-column flex-lg-row flex-md-row shadow bg-body border rounded">
                     <div><img class="img-fluid w-100" src="images/course/course-5.png" alt=""></div>
                     <div class="ps-2 text-start">
                         <h5>Photography Basic Rules</h5>
@@ -181,8 +184,8 @@
                     </div>
                 </div>
             </div>
-            <div class="tedu-single-courses col-lg-6 col-12">
-                <div class="d-flex flex-column flex-lg-row flex-md-row border rounded">
+            <div class="single-course col-lg-6 col-12">
+                <div class="d-flex flex-column flex-lg-row flex-md-row shadow bg-body border rounded">
                     <div><img class="img-fluid w-100" src="images/course/course-6.png" alt=""></div>
                     <div class="ps-2 text-start">
                         <h5>Motion Graphics</h5>
@@ -201,43 +204,158 @@
         </section>
         <!-- course end -->
         <!-- register section start -->
-        <section>
-            <section class="my-5 pb-lg-3" id="register-section">
-                <div
-                    class="d-flex flex-column flex-lg-row align-items-center justify-content-between bg-primary rounded">
-                    <div class="pb-0 pt-5 px-5 p-lg-5 text-white text-start">
-                        <h3>Ready to Join?</h3>
-                        <p>Let's Join by clicking Register button.</p>
-                    </div>
-                    <div class="pb-5 p-lg-5">
-                        <button type="button" class="btn btn-light ms-lg-5 fw-bold text-primary px-4"
-                            data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now</button>
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                            aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Register to Enroll</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
-                                    </div>
 
-                                    <div class="modal-body">
-                                        <h4>Register to Enroll Now!</h4>
-                                        <p>Choose your specific course. Develop your brighter future.</p>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-primary fw-bold px-4">Register</button>
-                                        <button type="button" class="btn btn-dark fw-bold px-4"
-                                            data-bs-dismiss="modal">Close</button>
-                                    </div>
+        <section class="my-5 pb-lg-3">
+            <div class="d-flex flex-column flex-lg-row align-items-center justify-content-between bg-primary rounded">
+                <div class="pb-0 pt-5 px-5 p-lg-5 text-white text-start">
+                    <h3>Ready to Join?</h3>
+                    <p>Let's Join by clicking Register button.</p>
+                </div>
+                <div class="pb-5 p-lg-5">
+                    <button type="button" class="btn btn-light ms-lg-5 fw-bold text-primary px-4" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Register Now</button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Register to Enroll</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <h4>Register to Enroll Now!</h4>
+                                    <p>Choose your specific course. Develop your brighter future.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary fw-bold px-4">Register</button>
+                                    <button type="button" class="btn btn-dark fw-bold px-4"
+                                        data-bs-dismiss="modal">Close</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
         </section>
+
+        <!-- register section start -->
+        <!-- student section -->
+        <section class="my-5 pb-lg-3">
+            <h2 class="my-5 fw-bold">Meet Our Successful Students</h2>
+            <div class="text-center">
+                <div class="row gy-5">
+                    <div class="col-12 col-md-6 col-lg-3 ">
+                        <div class=" shadow p-3 mb-5 bg-body border rounded"><img class="img-fluid"
+                                src="images/student/student-1.png" alt="">
+                            <h5 class="mt-2">Syed Hasan</h5>
+                            <p class="text-secondary">UI/UX Designer</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="shadow p-3 mb-5 bg-body border rounded"><img class="img-fluid"
+                                src="images/student/student-2.png" alt="">
+                            <h5 class="mt-2">Olivia Samantha</h5>
+                            <p class="text-secondary">Full Stack Web Developer</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="shadow p-3 mb-5 bg-body border rounded"><img class="img-fluid"
+                                src="images/student/student-3.png" alt="">
+                            <h5 class="mt-2">Thomas Joe</h5>
+                            <p class="text-secondary">Digital Marketing Expert</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="shadow p-3 mb-5 bg-body border rounded"><img class="img-fluid"
+                                src="images/student/student-4.png" alt="">
+                            <h5 class="mt-2">Ava Megan</h5>
+                            <p class="text-secondary">Motion Graphic Expert</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- student section -->
+        <!-- accordian start -->
+        <section class="pb-lg-5" id="our-faq">
+            <div>
+                <h2 class="mb-5 fw-bold">Frequently Asked Questions</h2>
+            </div>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button " type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <p class="fw-bold">What is difference between Flexbox and Grid?</p>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="text-start">Flexbox used for One dimensional layout - either a row or a column.
+                                Grid used for
+                                two-dimensional layout - rows, and columns at the same time.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <p class="fw-bold">Difference between Bootstrap and Tailwind CSS?</p>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="text-start">Bootstrap is pre-styled responsive, mobile-first components CSS
+                                framework; but
+                                Tailwind is utility-first CSS framework. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <p class="fw-bold">What is CSS box model?</p>
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="text-start">The CSS box model is essentially a box that wraps around every HTML
+                                element. It
+                                consists of: margins, borders, padding, and the actual content. It is a fundamental
+                                concept for the
+                                composition of HTML webpages.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <p class="fw-bold">What is Semantic Tags in HTML?</p>
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="text-start">Semantic tags are HTML markup tags that clearly describes its meaning
+                                to both the
+                                browser and the developer. Like; "header" tag defines a header for a web page. "section"
+                                tag defines a
+                                section in a web page.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- accordian end -->
+
     </main>
 
 
