@@ -1,0 +1,9 @@
+.carousel-img-styles img {
+    width: 13200px;
+    height: 650px;
+    object-fit: cover;
+}
+
+.slider-content {
+    margin-bottom: 12%;
+}
